@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body onload="UI()">
+    <div class="main-container">
+      <h1>TO DO LIST</h1>
+      <div class="container">
+        <div class="add-input">
+          <input id="input" type="text" placeholder="ADD THE TASK" id="input" />
+          <button onclick="addtask()" id="btn">ADD</button>
+        </div>
+        <div class="list-container" id="task-container">
+          <!-- <ul>
+            <li>arasalan <span>📝</span><i>🗑️</i></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
